@@ -35,7 +35,7 @@ A unique address for every device on the internet.
 - IPv4: `192.168.1.10`
 - IPv6: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`
 
-```bash
+``
 # To find your IP:
 ipconfig        # Windows
 ifconfig        # Linux/macOS
