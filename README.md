@@ -7,7 +7,7 @@ A structured 10-week roadmap for mastering system design concepts, tailored for 
 
 ## ✅ Progress Tracker
 
-- [ ] Week 1: Networking & Web Basics
+- [Week 1: Networking & Web Basics](week1-networking.md)
 - [ ] Week 2: API Design & Communication
 - [ ] Week 3: Databases Deep Dive
 - [ ] Week 4: Scaling 101
