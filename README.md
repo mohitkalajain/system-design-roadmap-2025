@@ -1,9 +1,5 @@
 # 🚀 System Design Roadmap (2025)
 
-![GitHub stars](https://img.shields.io/github/stars/your-username/system-design-roadmap-2025?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your-username/system-design-roadmap-2025?style=social)
-![GitHub license](https://img.shields.io/github/license/your-username/system-design-roadmap-2025)
-![Progress](https://img.shields.io/badge/Progress-0%25-yellow)
 
 A structured 10-week roadmap for mastering system design concepts, tailored for developers with backend experience.
 
