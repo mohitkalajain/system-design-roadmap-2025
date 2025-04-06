@@ -1,165 +1,116 @@
-# 🚀 System Design Learning Plan (10 Weeks)
+# 🚀 System Design Roadmap (2025)
+
+![GitHub stars](https://img.shields.io/github/stars/your-username/system-design-roadmap-2025?style=social)
+![GitHub forks](https://img.shields.io/github/forks/your-username/system-design-roadmap-2025?style=social)
+![GitHub license](https://img.shields.io/github/license/your-username/system-design-roadmap-2025)
+![Progress](https://img.shields.io/badge/Progress-0%25-yellow)
+
 A structured 10-week roadmap for mastering system design concepts, tailored for developers with backend experience.
 
 ---
 
-## 📅 Weekly Breakdown
+## ✅ Progress Tracker
 
-**Week 1: Networking & Web Basics**
-
-**Topics to Learn:**
-- Client-Server Model, IP, DNS, HTTP/HTTPS, Latency
-- Proxy vs Reverse Proxy
-- Postman, Fiddler - Tools
-
-**Hands-on Practice:**
-- Create a simple .NET Web API
-- Use Postman to inspect headers, latency
-
-**System Design Challenge:**
-- Design a basic URL Shortener (bit.ly)
+- [ ] Week 1: Networking & Web Basics
+- [ ] Week 2: API Design & Communication
+- [ ] Week 3: Databases Deep Dive
+- [ ] Week 4: Scaling 101
+- [ ] Week 5: Advanced Data Storage
+- [ ] Week 6: Caching & Performance
+- [ ] Week 7: Microservices Architecture
+- [ ] Week 8: Async Communication
+- [ ] Week 9: Security & Gateway
+- [ ] Week 10: Observability & Final Project
 
 ---
 
-**Week 2: API Design & Communication**
+## 📅 Weekly Breakdown + Resources
 
-**Topics to Learn:**
-- REST APIs vs GraphQL
-- Idempotency
-- Rate Limiting
-- Webhooks vs WebSockets
+### Week 1: Networking & Web Basics
 
-**Hands-on Practice:**
-- Build a .NET API with rate limiting and SignalR
-- Simulate webhook calls
-
-**System Design Challenge:**
-- Design a Notification System
+**🔗 Learning Resources:**
+- [How the Web Works – MDN](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works)
+- [Networking Basics – FreeCodeCamp](https://www.youtube.com/watch?v=qiQR5rTSshw)
+- [DNS Explained – Fireship](https://www.youtube.com/watch?v=72snZctFFtA)
 
 ---
 
-**Week 3: Databases Deep Dive**
+### Week 2: API Design & Communication
 
-**Topics to Learn:**
-- SQL vs NoSQL
-- Indexing, Denormalization
-- CAP Theorem
-
-**Hands-on Practice:**
-- Create SQL tables with indexes
-- Try MongoDB for NoSQL
-- Compare queries
-
-**System Design Challenge:**
-- Design Instagram feed storage
+**🔗 Learning Resources:**
+- [Postman REST API Guide](https://learning.postman.com/docs/getting-started/introduction/)
+- [GraphQL in 100 Seconds – Fireship](https://www.youtube.com/watch?v=eIQh02xuVw4)
+- [Webhooks 101 – FreeCodeCamp](https://www.freecodecamp.org/news/webhooks-explained/)
+- [WebSockets – MDN](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 
 ---
 
-**Week 4: Scaling 101**
+### Week 3: Databases Deep Dive
 
-**Topics to Learn:**
-- Vertical vs Horizontal Scaling
-- Load Balancers
-- Database Replication
-
-**Hands-on Practice:**
-- Simulate load balancing using NGINX
-- Explore Azure Load Balancer
-
-**System Design Challenge:**
-- Design scalable product listing
+**🔗 Learning Resources:**
+- [SQL vs NoSQL – FreeCodeCamp](https://www.freecodecamp.org/news/sql-vs-nosql-explained/)
+- [MongoDB vs MySQL – Fireship](https://www.youtube.com/watch?v=ZS_kXvOeQ5Y)
+- [Database Indexing Explained](https://use-the-index-luke.com/)
 
 ---
 
-**Week 5: Advanced Data Storage**
+### Week 4: Scaling 101
 
-**Topics to Learn:**
-- Sharding, Vertical Partitioning
-- Blob Storage, CDN
-
-**Hands-on Practice:**
-- Store file in Azure Blob
-- Use Azure CDN for delivery
-
-**System Design Challenge:**
-- Design image hosting like Imgur
+**🔗 Learning Resources:**
+- [Vertical vs Horizontal Scaling](https://www.geeksforgeeks.org/scaling-horizontal-vs-vertical/)
+- [Load Balancers in 100 Seconds – Fireship](https://www.youtube.com/watch?v=NAx76xx40jM)
+- [CAP Theorem Explained](https://www.youtube.com/watch?v=k-Yaq8AHlFA)
 
 ---
 
-**Week 6: Caching & Performance**
+### Week 5: Advanced Data Storage
 
-**Topics to Learn:**
-- Caching Strategies (TTL, LRU)
-- Redis Basics
-
-**Hands-on Practice:**
-- Integrate Redis with .NET API
-- Cache GET requests with expiration
-
-**System Design Challenge:**
-- Design Reddit-like system with upvotes
+**🔗 Learning Resources:**
+- [Replication & Sharding – MongoDB Docs](https://www.mongodb.com/docs/manual/sharding/)
+- [Partitioning Data – DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-database-sharding)
+- [Blob Storage – Azure](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-blobs-introduction)
 
 ---
 
-**Week 7: Microservices Architecture**
+### Week 6: Caching & Performance
 
-**Topics to Learn:**
-- Monolith vs Microservices
-- API Gateway
-- Service Discovery
-
-**Hands-on Practice:**
-- Split project into microservices
-- Use Ocelot as API Gateway
-
-**System Design Challenge:**
-- Design a payment service
+**🔗 Learning Resources:**
+- [Caching for Web Applications](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)
+- [Redis Crash Course – Traversy](https://www.youtube.com/watch?v=Hbt56gFj998)
+- [Denormalization in DB](https://www.geeksforgeeks.org/denormalization-in-databases/)
 
 ---
 
-**Week 8: Async Communication**
+### Week 7: Microservices Architecture
 
-**Topics to Learn:**
-- Message Queues
-- Event-driven Architecture
-- Sync vs Async
-
-**Hands-on Practice:**
-- Publish/consume message with RabbitMQ
-- Create background worker
-
-**System Design Challenge:**
-- Design Order Processing System
+**🔗 Learning Resources:**
+- [Microservices Explained – Martin Fowler](https://martinfowler.com/articles/microservices.html)
+- [Microservices vs Monolith – TechWorld](https://www.youtube.com/watch?v=vvhC2zWrUvQ)
+- [Idempotency Explained – Stripe Docs](https://stripe.com/docs/idempotency)
 
 ---
 
-**Week 9: Security & Gateway**
+### Week 8: Async Communication
 
-**Topics to Learn:**
-- JWT, OAuth2, OpenID
-- API Gateway + Auth
-- Idempotency Revisited
-
-**Hands-on Practice:**
-- Secure APIs with JWT
-- Implement refresh tokens
-
-**System Design Challenge:**
-- Design secure auth flow like Auth0
+**🔗 Learning Resources:**
+- [Message Queues – RabbitMQ](https://www.rabbitmq.com/tutorials/tutorial-one-dotnet.html)
+- [Kafka in 100 Seconds – Fireship](https://www.youtube.com/watch?v=OtDxDvCpPL4)
+- [Async Patterns in Distributed Systems](https://learn.microsoft.com/en-us/azure/architecture/patterns/async-request-reply)
 
 ---
 
-**Week 10: Observability & Final Mock System**
+### Week 9: Security & Gateway
 
-**Topics to Learn:**
-- Logging, Monitoring, Tracing
-- Tools: Serilog, Seq, ELK
-
-**Hands-on Practice:**
-- Add structured logging to .NET API
-- Monitor endpoint performance
-
-**System Design Challenge:**
-- Design YouTube-like video platform
+**🔗 Learning Resources:**
+- [Rate Limiting Strategies](https://www.abstractapi.com/guides/api-rate-limiting)
+- [API Gateway Overview – AWS](https://docs.aws.amazon.com/apigateway/latest/developerguide/welcome.html)
+- [OAuth 2.0 and OpenID Connect](https://auth0.com/docs/protocols/oauth2)
 
 ---
+
+### Week 10: Observability & Final Project
+
+**🔗 Learning Resources:**
+- [Monitoring vs Observability – Grafana](https://grafana.com/blog/2021/01/27/observability-vs.-monitoring-whats-the-difference/)
+- [System Design Project Ideas](https://github.com/donnemartin/system-design-primer#practice-examples)
+- [DotNET Logging & Telemetry – Microsoft Docs](https://learn.microsoft.com/en-us/aspnet/core/fundamentals/logging/)
